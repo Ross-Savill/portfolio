@@ -10,23 +10,23 @@ The purpose of my website is to display my professional development and characte
 
 The website links between four pages, consisting of a home page, my biography, a page displaying my coding skillset and a 'contact me' page where people can get in touch with me through a contact form via Netlify. 
 
-![Screenshot](portfolio-photos/homepage.png)
+![Screenshot](docs/homepage.png)
 
-![Screenshot](portfolio-photos/bio.png)
+![Screenshot](docs/bio.png)
 
-![Screenshot](portfolio-photos/proficiency.png)
+![Screenshot](docs/proficiency.png)
 
-![Screenshot](portfolio-photos/contact.png)
+![Screenshot](docs/contact.png)
 
 The website is very easy to navigate, with buttons to each of the other three pages available on each page.
 
 I planned out my path initially on figma, drawing out complimenting colours and deciding on the fonts I was going to take forward.
 
-![Screenshot](portfolio-photos/portfolio-figma.png)
+![Screenshot](docs/portfolio-figma.png)
 
 Alongside Figma I used Trello to plan my step by step process to bring the website together.
 
-![Screenshot](portfolio-photos/portfolio-trello.png)
+![Screenshot](docs/portfolio-trello.png)
 
 ## Question 1:
 Describe key events in the development of the internet from the 1980s to today.
