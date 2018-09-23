@@ -90,7 +90,7 @@ body {
     .title {
         text-align: left;
         margin: 30px;
-        margin-left: 90px;
+        margin-left: 40px;
         font-size: 4vh;
         width: 50px;
         margin-right: 0px;
@@ -117,13 +117,13 @@ body {
 }
 
 .my-skills-one {
-    width: 30%;
+    width: 35%;
     margin: none;
     float: left;
 }
 
 .my-skills-two {
-    width: 30%;
+    width: 35%;
     margin-left: 0%;
 }
 
@@ -142,7 +142,7 @@ body {
     /* display: block; */
     color: #ffffff;
     text-decoration: transparent;
-    top: 1.5em;
+    top: 1em;
     font-size: 6.5vh;
     font-family: 'Life Savers', cursive;
     transition: .3s;
@@ -265,7 +265,7 @@ body {
     .title {
         text-align: left;
         margin: 30px;
-        margin-left: 170px;
+        margin-left: 40px;
         font-size: 6vh;
         width: 50px;
         margin-right: 0px;
@@ -280,7 +280,7 @@ body {
         
         .my-skills-two {
             width: 15%;
-            margin-left: 0%;
+            margin-left: 70px;
             margin-top: 0%;
     }
      /* BUTTONS SECTION */
@@ -300,11 +300,11 @@ body {
         /* display: block; */
         color: #ffffff;
         text-decoration: transparent;
-        /* top: 1.5em; */
+        top: 1.5em;
         font-size: 6.5vh;
         font-family: 'Life Savers', cursive;
         transition: .3s;
-        margin: .6em;
+        margin: .4em;
     }
     
     .main-link-desktop:hover {
@@ -321,6 +321,7 @@ body {
         display: block;
         margin-right: 300px;
         width: 50px;
+        /* margin-bottom: 2em; */
     } 
     #contact-desktop  {
         display: block;
@@ -334,7 +335,7 @@ body {
         width: 0em;
         background: orange;
         height: .2em;
-        top: 4.5em;
+        top: 5.4em;
         border-radius: .1em;
         /* left: .5em; */
         transition: .3s;
@@ -350,7 +351,7 @@ body {
         width: 0em;
         background: orange;
         height: .2em;
-        top: 7em;
+        top: 7.4em;
         border-radius: .1em;
         /* left: .5em; */
         transition: .3s;
