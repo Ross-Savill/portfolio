@@ -101,7 +101,7 @@ body {
     }
 
 .skills-page {
-    background-image: url('/images/proficiency_match_large.jpg');
+    background-image: url('proficiency_match_large.jpg');
     background-repeat: no-repeat;
     display: block;
     background-size: cover;
@@ -242,7 +242,7 @@ body {
 
     .skills-page {
         height: 100vh;
-        background-image: url('/images/proficiency_match_large.jpg');
+        background-image: url('proficiency_match_large.jpg');
         background-repeat: no-repeat;
         display: block;
         background-size: cover;
