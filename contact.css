@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    background: #150905;
+    overflow: auto; 
+}
+
+.main-link-desktop {
+    display: none;
+}
+
+.desktop-buttons {
+    display: none;
+}
+
+.match-image {
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vh;
+}
+
+.container {
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: 'Duru Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+#skills-title {
+    margin-bottom: 5px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1.1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+    text-align: center;
+    font-family: 'Duru Sans', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    bottom: 0px;
+    clear: both;
+    position: fixed;
+    background-color: #D8781D;
+    padding: 10px;
+    width: 100%;
+}
+
+.navbar a {
+    border-radius: 15px;
+    background-color: #F4D059;
+    margin: 0px 15px;
+    padding: 0;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) {
+
+    .image {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+}
+
+    .title {
+        text-align: left;
+        margin: 85px 75px;
+        font-size: 2.5vh;
+    }
+
+    .contact-page {
+        background-image: url('images/form_match_large.jpeg');
+        background-repeat: no-repeat;
+        display: block;
+        background-size: cover;
+        height: 100%;
+        width: 100vw;
+        background-position: center;
+        overflow: auto;
+    }
+
+    .desktop-buttons {
+        margin: 0.8em;
+        display: block;
+    }
+
+    .main-link {
+        /* display: block; */
+        color: #ffffff;
+        text-decoration: transparent;
+        top: 1.5em;
+        font-size: 6.5vh;
+        font-family: 'Life Savers', cursive;
+        transition: .3s;
+        margin: 1em;
+        position: fixed;
+    }
+    
+    .main-link:hover {
+        color: orange;
+    }
+    
+    .main-link:before {
+        content: "";
+        position: absolute;
+        width: 0em;
+        background: orange;
+        height: .2em;
+        top: 1.3em;
+        border-radius: .1em;
+        left: .5em;
+        transition: .3s;
+    }
+    
+    .main-link:hover:before {
+        width: 6em;
+    }
+    
+    #main-menu {
+        right: 1em;
+        display: block;
+        width: 170px;
+        top: 2em;
+    } 
+    #biography {
+        right: 2em;
+        display: block;
+        width: 100px;
+        top: 3.7em;
+    }
+    #skills {
+        right: 1em;
+        display: block;
+        width: 100px;
+        top: 5.5em;
+    } 
+    
+    @keyframes animate
+    {
+        0%
+        {
+            transform: translate(0) scaleX(0);
+            transform-origin: left;
+            left: 33.3%;
+            right: auto;
+        }
+        45%
+        {
+            transform: translate(0) scaleX(1);
+            transform-origin: left;
+            left: 33.3%;
+            right: auto;
+        }
+    } 
+    }
+
+@media only screen and (min-width: 1001px) {
+
+.image {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+}
+
+    .title {
+        text-align: left;
+        margin: 85px 75px;
+        font-size: 3.5vh;
+    }
+    
+    #skills-title {
+        margin-bottom: 5px;
+    }
+
+    .contact-page {
+        background-image: url('images/form_match_large.jpeg');
+        background-repeat: no-repeat;
+        display: block;
+        background-size: cover;
+        height: 100%;
+        width: 100vw;
+        background-position: center;
+        overflow: auto;
+    }
+    .desktop-buttons {
+        margin: 0.8em;
+        display: block;
+    }
+
+    .main-link {
+        /* display: block; */
+        color: #ffffff;
+        text-decoration: transparent;
+        top: 1.5em;
+        font-size: 7vh;
+        font-family: 'Life Savers', cursive;
+        transition: .3s;
+        margin: 1em;
+        position: fixed;
+    }
+    
+    .main-link:hover {
+        color: orange;
+    }
+    
+    .main-link:before {
+        content: "";
+        position: absolute;
+        width: 0em;
+        background: orange;
+        height: .2em;
+        top: 1.3em;
+        border-radius: .1em;
+        left: .5em;
+        transition: .3s;
+    }
+    
+    .main-link:hover:before {
+        width: 6em;
+    }
+    
+    #main-menu {
+        right: 3em;
+        display: block;
+        width: 260px;
+        top: 2em;
+    } 
+    #biography {
+        right: 5em;
+        display: block;
+        width: 100px;
+        top: 3.7em;
+    }
+    #skills {
+        right: 3.8em;
+        display: block;
+        width: 100px;
+        top: 5.5em;
+    } 
+    
+    @keyframes animate
+    {
+        0%
+        {
+            transform: translate(0) scaleX(0);
+            transform-origin: left;
+            left: 33.3%;
+            right: auto;
+        }
+        45%
+        {
+            transform: translate(0) scaleX(1);
+            transform-origin: left;
+            left: 33.3%;
+            right: auto;
+        }
+    } 
+ }

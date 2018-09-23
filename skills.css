@@ -1,0 +1,395 @@
+body {
+    margin: 0;
+    background: #000;
+    overflow: auto; 
+}
+
+.main-link-desktop {
+    display: none;
+}
+
+.image {
+     margin: none;
+}
+
+.match-image {
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vh;
+}
+
+.container {
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: 'Duru Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+#skills-title {
+    margin-bottom: 5px;
+}
+
+.skills-points {
+    display: flex;
+    font-family: 'Life Savers', cursive;
+    color: #fff;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.my-skills-one {
+    width: 50%;
+    margin: none;
+    float: left;
+}
+
+.my-skills-two {
+    width: 50%;
+    margin-left: 0%;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1.1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+    text-align: center;
+    font-family: 'Duru Sans', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    bottom: 0px;
+    clear: both;
+    position: fixed;
+    background-color: #D8781D;
+    padding: 10px;
+    width: 100%;
+}
+
+.navbar a {
+    border-radius: 15px;
+    background-color: #F4D059;
+    margin: 0px 15px;
+    padding: 0;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) {
+
+    .image {
+        display: none;
+    }
+
+    .title {
+        text-align: left;
+        margin: 30px;
+        margin-left: 90px;
+        font-size: 3.5vh;
+        width: 50px;
+        margin-right: 0px;
+    }
+
+    #skills-title {
+        width: 50px;
+        margin: 0px;
+    }
+
+.skills-page {
+    background-image: url('/images/proficiency_match_large.jpg');
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: -50px -50px;
+    overflow: auto;
+}
+
+.navbar {
+        visibility: hidden;
+}
+
+.my-skills-one {
+    width: 30%;
+    margin: none;
+    float: left;
+}
+
+.my-skills-two {
+    width: 30%;
+    margin-left: 0%;
+}
+
+.desktop-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    position: right;
+    width: 100%;
+}
+
+    /* BUTTONS SECTION */
+.main-link-desktop {
+    /* display: block; */
+    color: #ffffff;
+    text-decoration: transparent;
+    top: 1.5em;
+    font-size: 6.5vh;
+    font-family: 'Life Savers', cursive;
+    transition: .3s;
+    margin: .6em;
+}
+
+.main-link-desktop:hover {
+    color: orange;
+}
+
+#main-menu-desktop:before {
+    content: "";
+    position: absolute;
+    width: 0em;
+    background: orange;
+    height: .2em;
+    top: 5.8em;
+    border-radius: .1em;
+    /* left: .5em; */
+    transition: .3s;
+}
+
+#main-menu-desktop:hover:before {
+    width: 6em;
+}
+
+#biography-desktop:before {
+    content: "";
+    position: absolute;
+    width: 0em;
+    background: orange;
+    height: .2em;
+    top: 8.3em;
+    border-radius: .1em;
+    /* left: .5em; */
+    transition: .3s;
+}
+
+#biography-desktop:hover:before {
+    width: 6em;
+}
+
+#contact-desktop:before {
+    content: "";
+    position: absolute;
+    width: 0em;
+    background: orange;
+    height: .2em;
+    top: 10.6em;
+    border-radius: .1em;
+    /* left: .5em; */
+    transition: .3s;
+}
+
+#contact-desktop:hover:before {
+    width: 6em;
+}
+
+#main-menu-desktop {
+    display: block;
+    width: 170px;
+    margin-right: 150px;
+}
+#biography-desktop  {
+    display: block;
+    margin-right: 220px;
+    width: 50px;
+} 
+#contact-desktop  {
+    display: block;
+    margin-right: 90px;
+    width: 160px;
+} 
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translate(0) scaleX(0);
+        transform-origin: left;
+        left: 33.3%;
+        right: auto;
+    }
+    45%
+    {
+        transform: translate(0) scaleX(1);
+        transform-origin: left;
+        left: 33.3%;
+        right: auto;
+    }
+} 
+}
+@media only screen and (min-width: 1001px) {
+
+    .image {
+        display: none;
+    }
+
+    .skills-page {
+        height: 100vh;
+        background-image: url('/images/proficiency_match_large.jpg');
+        background-repeat: no-repeat;
+        display: block;
+        background-size: cover;
+        width: 100%;
+        background-position: 0px -200px;
+        padding: 0em;
+        overflow: auto;
+    }
+    
+    #skills-title {
+        width: 50px;
+        margin: 0px;
+    }
+
+    .navbar {
+        visibility: hidden;
+    }
+
+    .title {
+        text-align: left;
+        margin: 30px;
+        margin-left: 170px;
+        font-size: 3.5vh;
+        width: 50px;
+        margin-right: 0px;
+    }
+
+    .my-skills-one {
+            width: 25%;
+            margin: none;
+            float: left;
+            margin-top: 0px;
+        }
+        
+        .my-skills-two {
+            width: 15%;
+            margin-left: 0%;
+            margin-top: 0%;
+    }
+     /* BUTTONS SECTION */
+
+     .desktop-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        position: right;
+        width: 100%;
+    }
+    
+        /* BUTTONS SECTION */
+    .main-link-desktop {
+        /* display: block; */
+        color: #ffffff;
+        text-decoration: transparent;
+        /* top: 1.5em; */
+        font-size: 6.5vh;
+        font-family: 'Life Savers', cursive;
+        transition: .3s;
+        margin: .6em;
+    }
+    
+    .main-link-desktop:hover {
+        color: orange;
+    }
+    
+    #main-menu-desktop {
+        display: block;
+        width: 240px;
+        margin-right: 150px;
+        margin-top: 0px;
+    }
+    #biography-desktop  {
+        display: block;
+        margin-right: 300px;
+        width: 50px;
+    } 
+    #contact-desktop  {
+        display: block;
+        margin-right: 90px;
+        width: 240px;
+    } 
+
+       #main-menu-desktop:before {
+        content: "";
+        position: absolute;
+        width: 0em;
+        background: orange;
+        height: .2em;
+        top: 4.5em;
+        border-radius: .1em;
+        /* left: .5em; */
+        transition: .3s;
+    }
+    
+    #main-menu-desktop:hover:before {
+        width: 6em;
+    }
+
+    #biography-desktop:before {
+        content: "";
+        position: absolute;
+        width: 0em;
+        background: orange;
+        height: .2em;
+        top: 7em;
+        border-radius: .1em;
+        /* left: .5em; */
+        transition: .3s;
+    }
+    
+    #biography-desktop:hover:before {
+        width: 6em;
+    }
+
+    #contact-desktop:before {
+        content: "";
+        position: absolute;
+        width: 0em;
+        background: orange;
+        height: .2em;
+        top: 9.3em;
+        border-radius: .1em;
+        /* left: .5em; */
+        transition: .3s;
+    }
+    
+    #contact-desktop:hover:before {
+        width: 6em;
+    }
+    
+    @keyframes animate
+    {
+        0%
+        {
+            transform: translate(0) scaleX(0);
+            transform-origin: left;
+            left: 33.3%;
+            right: auto;
+        }
+        45%
+        {
+            transform: translate(0) scaleX(1);
+            transform-origin: left;
+            left: 33.3%;
+            right: auto;
+        }
+    } 
+}

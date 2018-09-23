@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    background: #070707;
+    overflow: auto; 
+}
+
+.w3-image {
+    width: 100%;
+}
+
+.bio-page {
+    display: block;
+    overflow: auto;
+    image-resolution: 200px
+}
+
+.container {
+    height: 100%;
+    margin: 0;
+}
+
+#biography-title {
+    color: #F4D059;
+    font-size: 2.8em;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Duru Sans', sans-serif;
+}
+
+#ross-savill {
+    font-family: 'Life Savers', cursive;
+    font-size: 1.6em;
+    color: #fff;
+}
+
+#about-me-text {
+    position: relative;
+    font-family: 'Amiko', sans-serif;
+    font-size: 2.5vh;
+    color: #fff;
+    top: 1em;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1.1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+    text-align: center;
+    font-family: 'Duru Sans', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    bottom: 0px;
+    clear: both;
+    position: fixed;
+    background-color: #D8781D;
+    padding: 10px;
+    width: 100%;
+    }
+
+    .navbar a {
+    border-radius: 15px;
+    background-color: #F4D059;
+    margin: 0px 15px;
+    padding: 0;
+    font-weight: bold;
+    }
+
+.main-wrapper {
+        grid-column: 1;
+    }
+
+.proficiency-wrapper {
+        grid-column: 2;
+    }
+
+.contact-wrapper {
+        grid-column: 3;
+    }
+
+.main-link {
+        color: #000;
+    }
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) {
+
+  
+    .bio-page {
+        height: 100vh;
+    }
+    .container {
+        background-image: url('/images/bio_match_large.jpeg');
+        background-repeat: no-repeat;
+        display: block;
+        background-size: cover;
+        background-position: -160px 20px;
+    }
+
+    .w3-image {
+        display: none;
+    }
+
+    .navbar {
+        visibility: hidden;
+    }
+
+    .title {
+        /* margin: 4em; */
+        margin-top: 2em;
+    }
+
+    #biography-title {
+        font-size: 12vh;
+        text-align: right;
+    } 
+
+    #ross-savill {
+            font-size: 5vh;
+            text-align: right;
+    }
+
+    #about-me-text {
+        margin-top: 0.5em;
+    }
+
+.about-me-wrapper {
+    display: flex;
+    right: 100%;
+    justify-content: flex-end;
+}
+
+    #about-me-text {
+        /* position: fixed; */
+        font-family: 'Amiko', sans-serif;
+        /* font-size: 2.5vh; */
+        font-size: 2.3vh;
+        position: right;
+        text-align: end;
+        width: 40%;
+}
+/* ADDING BUTTONS */
+
+.main-link {
+    /* display: block; */
+    color: #ffffff;
+    text-decoration: transparent;
+    top: 1.5em;
+    font-size: 5vh;
+    font-family: 'Life Savers', cursive;
+    transition: .3s;
+    margin: .6em;
+    position: fixed;
+}
+
+.main-link:hover {
+    color: orange;
+}
+
+.main-link:before {
+    content: "";
+    position: absolute;
+    width: 0em;
+    background: orange;
+    height: .2em;
+    top: 1.3em;
+    border-radius: .1em;
+    left: .5em;
+    transition: .3s;
+}
+
+.main-link:hover:before {
+    width: 6em;
+}
+
+#biography {
+    left: 1em;
+    display: block;
+    width: 100px;
+    top: 2em;
+}
+#proficiency {
+    left: 1.5em;
+    display: block;
+    width: 100px;
+    top: 3.5em;
+} 
+#contact {
+    left: 2em;
+    display: block;
+    width: 170px;
+    top: 5em;
+} 
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translate(0) scaleX(0);
+        transform-origin: left;
+        left: 33.3%;
+        right: auto;
+    }
+    45%
+    {
+        transform: translate(0) scaleX(1);
+        transform-origin: left;
+        left: 33.3%;
+        right: auto;
+    }
+} 
+}
+
+@media only screen and (min-width: 1001px) {
+
+    body {
+        background-color: transparent;
+    }
+
+        .bio-page {
+            height: 100vh;
+        }
+
+        .container {
+            background-image: url('/images/bio_match_large.jpeg');
+            background-repeat: no-repeat;
+            display: block;
+            background-size: cover;
+            background-position: 0px -50px;
+        }
+    
+        .w3-image {
+            display: none;
+        }
+    
+        .navbar {
+            display: none;
+        }
+    
+        .title {
+            margin-top: 4em;
+        }
+    
+        #biography-title {
+            font-size: 12vh;
+            text-align: right;
+            margin-bottom: 0.3em;
+            margin-right: 0.5em;
+        } 
+    
+        #ross-savill {
+                font-size: 5vh;
+                text-align: right;
+                margin: 0px;
+                margin-right: 2em;
+        }
+    
+    .about-me-wrapper {
+        display: flex;
+        right: 100%;
+        justify-content: flex-end;
+        margin-right: 3.5em;
+    }
+    
+        #about-me-text {
+            /* position: fixed; */
+            font-family: 'Amiko', sans-serif;
+            font-size: 2.5vh;
+            position: right;
+            text-align: end;
+            width: 40%;
+        }
+        /* ADDING BUTTONS */
+
+    .main-link {
+        /* display: block; */
+        color: #ffffff;
+        text-decoration: transparent;
+        top: 1.5em;
+        font-size: 6vh;
+        font-family: 'Life Savers', cursive;
+        transition: .3s;
+        margin: .6em;
+        position: fixed;
+}
+
+    .main-link:hover {
+        color: orange;
+}
+
+    .main-link:before {
+        content: "";
+        position: absolute;
+        width: 0em;
+        background: orange;
+        height: .2em;
+        top: 1.3em;
+        border-radius: .1em;
+        left: .5em;
+        transition: .3s;
+}
+
+.main-link:hover:before {
+    width: 6em;
+}
+
+#biography {
+    left: 1.3em;
+    display: block;
+    width: 100px;
+    top: 1.8em;
+}
+#proficiency {
+    left: 2.3em;
+    display: block;
+    width: 100px;
+    top: 3.5em;
+} 
+#contact {
+    left: 3.8em;
+    display: block;
+    width: 260px;
+    top: 5.2em;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: translate(0) scaleX(0);
+        transform-origin: left;
+        left: 33.3%;
+        right: auto;
+    }
+    45%
+    {
+        transform: translate(0) scaleX(1);
+        transform-origin: left;
+        left: 33.3%;
+        right: auto;
+    }
+    }
+}
