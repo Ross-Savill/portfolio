@@ -89,7 +89,7 @@ body {
         height: 100vh;
     }
     .container {
-        background-image: url('/images/bio_match_large.jpeg');
+        background-image: url('bio_match_large.jpeg');
         background-repeat: no-repeat;
         display: block;
         background-size: cover;
@@ -221,7 +221,7 @@ body {
         }
 
         .container {
-            background-image: url('/images/bio_match_large.jpeg');
+            background-image: url('bio_match_large.jpeg');
             background-repeat: no-repeat;
             display: block;
             background-size: cover;

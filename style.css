@@ -4,14 +4,14 @@ body {
 }
 
 .main-menu {
-    background-image: url('/images/hand_match_small.jpeg');
+    background-image: url('hand_match_small.jpeg');
     background-repeat: no-repeat;
     margin: 0;
 }
 
 .main-menu-large {
     display: none;
-    background-image: url('/images/hand_match_large.jpeg');
+    background-image: url('hand_match_large.jpeg');
     background-repeat: no-repeat;
     background-position: -180px 0px;
     height: 100%;
@@ -115,7 +115,7 @@ body {
 
 @media only screen and (max-width: 479px) and (min-width: 1px) {
     .main-menu {
-        background-image: url('/images/hand_match_small.jpeg');
+        background-image: url('hand_match_small.jpeg');
         background-repeat: no-repeat;
         background-size: -10px;
         background-position: -180px -50px;
@@ -133,7 +133,7 @@ body {
     .main-menu-large {
         display: block;
         background-size: cover;
-        background-image: url('/images/hand_match_large.jpeg');
+        background-image: url('hand_match_large.jpeg');
         box-sizing: border-box;
         background-position: -60px -100px;
         height: 100vh;
