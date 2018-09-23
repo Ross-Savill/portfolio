@@ -28,7 +28,7 @@ body {
 
 .title {
     font-family: 'Duru Sans', sans-serif;
-    color: #fff;
+    color: #F4D059;
     text-align: center;
 }
 
@@ -78,6 +78,7 @@ body {
     margin: 0px 15px;
     padding: 0;
     font-weight: bold;
+    color: #000;
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1000px) {
@@ -90,7 +91,7 @@ body {
         text-align: left;
         margin: 30px;
         margin-left: 90px;
-        font-size: 3.5vh;
+        font-size: 4vh;
         width: 50px;
         margin-right: 0px;
     }
@@ -265,7 +266,7 @@ body {
         text-align: left;
         margin: 30px;
         margin-left: 170px;
-        font-size: 3.5vh;
+        font-size: 6vh;
         width: 50px;
         margin-right: 0px;
     }

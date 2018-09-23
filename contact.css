@@ -29,12 +29,27 @@ body {
 
 .title {
     font-family: 'Duru Sans', sans-serif;
-    color: #fff;
+    color: #F4D059;
     text-align: center;
 }
 
 #skills-title {
     margin-bottom: 5px;
+}
+
+.netlify-form {
+    font-family: 'Amiko', sans-serif;
+    color: #fff;
+    margin-left: 75px;
+}
+
+.send-button {
+    background: transparent;
+    border: none;
+    font-family: 'Life Savers', cursive;
+    font-size: 4vh;
+    color: #fff;
+    margin-left: 90px;
 }
 
 .navbar {
@@ -60,6 +75,7 @@ body {
     margin: 0px 15px;
     padding: 0;
     font-weight: bold;
+    color: #000;
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1000px) {
